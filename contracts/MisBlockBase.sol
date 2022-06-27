@@ -840,6 +840,9 @@ contract MisBlockBase is ERC20, Pausable, Ownable {
         }
     }
 
+    function addNewAddress() external return (uint256) {
+        return 1;
+    }
     /**
     * @dev Internal function to be called before token transfer.
     * Check time locked funds.
