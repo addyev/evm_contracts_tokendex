@@ -20,8 +20,6 @@ async function main() {
     await token.deployed();
   
     console.log("Token address:", token.address);
-
-    console.log('The contract has been deployed succesfully!');
   }
   
   main()
