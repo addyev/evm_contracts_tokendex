@@ -20,6 +20,8 @@ async function main() {
     await token.deployed();
   
     console.log("Token address:", token.address);
+
+    console.log("Deploying the smart contract. ")
   }
   
   main()
